@@ -1,0 +1,62 @@
+
+.logo {
+  margin: 50px auto 0 auto;
+  display: block;
+}
+
+input {
+  color: $white;
+  border-radius: $radius;
+  font-family: $font__primary;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+  background: $red;
+  border: 2px solid rgba(0,0,0,0.1);
+  transition: 0.4s ease;
+  position: relative;
+
+  &:hover {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.4);
+  }
+
+  &:focus {
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 1px 20px rgba(0,0,0,0.4);
+    border: 2px solid $yellow;
+  }
+}
+
+::-webkit-input-placeholder {
+   color: rgba(0,0,0,0.2);
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(0,0,0,0.2);
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(0,0,0,0.2);
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   color: rgba(0,0,0,0.2);
+   text-align: center;
+}
+
+.selected {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  background: rgba(0,0,0,0.4);
+}

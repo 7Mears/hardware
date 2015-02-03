@@ -1,0 +1,33 @@
+.bottom {
+  background: rgba(0,0,0,0.5);
+  background-image: url(img/dark-wood.png);
+  padding: 50px 0;
+  font-size: 16px;
+  font-family: $font__secondary;
+  color: rgba(255,255,255,0.7);
+  box-shadow: inset 0px 5px 25px rgba(0, 0, 0, 0.6);
+
+  li {
+    list-style: none;
+    padding: 5px 0;
+  }
+}
+
+.info {
+  float: left;
+  width: 31.333%;
+  margin: 1%;
+  padding: 0 50px;
+/*   border-right: 2px solid rgba(0, 0, 0, 0.1);
+
+&:nth-child(3n) {
+  border: 0;
+} */
+}
+
+.title {
+  font-family: $font__primary;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(255,255,255,1);
+}
